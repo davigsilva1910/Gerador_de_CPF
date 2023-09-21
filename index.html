@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de CPFs</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="titulo">Gerador de CPF</div>
+
+    <div class="container">
+        <div class="selecao">
+            <p class="legenda-selecao">Selecione o estado:</p>
+            <select name="select" id="select">
+                <option value="IND" class="opcao" aria- checked="true">Indiferente</option>
+                <option value="AC" class="opcao">Acre</option>
+                <option value="AL" class="opcao">Alagoas</option>
+                <option value="AP" class="opcao">Amapá</option>
+                <option value="AM" class="opcao">Amazonas</option>
+                <option value="BA" class="opcao">Bahia</option>
+                <option value="CE" class="opcao">Ceará</option>
+                <option value="DF" class="opcao">Distrito Federal</option>
+                <option value="ES" class="opcao">Espirito Santo</option>
+                <option value="GO" class="opcao">Goiás</option>
+                <option value="MA" class="opcao">Maranhão</option>
+                <option value="MT" class="opcao">Mato Grosso</option>
+                <option value="MS" class="opcao">Mato Grosso do Sul</option>
+                <option value="MG" class="opcao">Minas Gerais</option>
+                <option value="PA" class="opcao">Pará</option>
+                <option value="PB" class="opcao">Paraíba</option>
+                <option value="PR" class="opcao">Paraná</option>
+                <option value="PE" class="opcao">Pernambuco</option>
+                <option value="PI" class="opcao">Piauí</option>
+                <option value="RR" class="opcao">Roraima</option>
+                <option value="RO" class="opcao">Rondônia</option>
+                <option value="RJ" class="opcao">Rio de Janeiro</option>
+                <option value="RN" class="opcao">Rio Grande do Norte</option>
+                <option value="RS" class="opcao">Rio Grande do Sul</option>
+                <option value="SC" class="opcao">Santa Catarina</option>
+                <option value="SP" class="opcao">São Paulo</option>
+                <option value="SE" class="opcao">Sergipe</option>
+                <option value="TO" class="opcao">Tocantins</option>
+            </select>
+        </div>
+        <div class="campoCopiar" id="campoCopiar"></div>
+        <input type="text" id="saida" class="saida" readonly placeholder="Clique no botão para gerar o CPF">
+        <button id="botao" class="botao">GERAR CPF</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
